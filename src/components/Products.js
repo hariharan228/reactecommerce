@@ -11,9 +11,9 @@ function Products({product}) {
 
             <Card.Body>
                 <Link to={`/product/${product._id}`}>
-                    <Card.Title as="div">
+                    <Card.Text as="div" className="font-size">
                         <strong>{product.name}</strong>
-                    </Card.Title>
+                    </Card.Text>
                 </Link>
             </Card.Body>
             <Card.Text as="div">
